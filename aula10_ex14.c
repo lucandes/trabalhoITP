@@ -18,8 +18,8 @@ int main(){
 	// linha representa o espaco onde serao impressos
 	for (int linha=1; linha<=n; linha++){
 
-		// imp representa os numeros que foram impressos
-		// ao reiniciar o loop imp volta a ser 0
+		// imp representa a quantidade de numeros impressos
+		// ao reiniciar o loop, imp volta a ser 0
 		for (int imp=0; imp<linha; printf("%d ", nums++))
 			// cada vez que um numero for impresso imp += 1 
 			imp++;
