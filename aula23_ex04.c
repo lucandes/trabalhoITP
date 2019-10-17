@@ -26,7 +26,7 @@ typedef struct
 
 int main(){
 	// tamanho da lista de alunos
-	const int len = 2;
+	const int len = 5;
 
 	// declarando vetor de estruturas
 	tipoAluno aluno[len];
