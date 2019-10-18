@@ -1,6 +1,14 @@
 #include <stdio.h>
 #include <string.h>
 
+/*Crie uma função para somar dois vetores. Esta função deve receber dois vetores
+e retornar a soma em um terceiro vetor.
+• Caso o tamanho do primeiro e segundo vetor seja diferente então a função
+retornará ZERO (0).
+• Caso a função seja concluída com sucesso a mesma deve retornar o valor
+UM (1).
+• Utilize aritmética de ponteiros para manipulação do vetor.*/
+
 int soma(int *A, int *B, int X, int Y, int *resultado){
     int i;
    	
